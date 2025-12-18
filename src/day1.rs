@@ -2,7 +2,7 @@ use std::fs;
 // File System Module
 
 pub fn solve() {
-    let input = fs::read_to_string("input.txt").unwrap();
+    let input = fs::read_to_string("src/input/sample.txt").unwrap();
     // read_to_string gives output Result<String, std::io::Error>
     // Then unwrap basically does panic and show error message(default), could use .except() for 
     // original error message or could use match if we know program won't fail if func fails, or 
