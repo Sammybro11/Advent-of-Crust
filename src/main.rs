@@ -5,9 +5,10 @@ mod day4;
 mod day5;
 mod day7;
 mod day8;
+mod day9;
 
 fn main() {
-    let day: u32 = 8;
+    let day: u32 = 9;
     match day {
         1 => day1::solve(),
         2 => day2::solve(),
@@ -16,6 +17,7 @@ fn main() {
         5 => day5::solve(),
         7 => day7::solve(),
         8 => day8::solve(),
+        9 => day9::solve(),
         _ => println!("Big day for the unemployed.")
     }
 }
